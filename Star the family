@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STAR ACADEMY</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #02040a;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+#globe {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 24px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffffff25;
+}
+
+.logo {
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.logo span {
+  color: #66baff;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.hero {
+  position: absolute;
+  z-index: 1;
+  left: 7%;
+  top: 40%;
+  pointer-events: none;
+}
+
+.hero p {
+  letter-spacing: 4px;
+  color: #8fcaff;
+}
+
+h1 {
+  font-size: clamp(36px, 6vw, 75px);
+  line-height: 1.1;
+  letter-spacing: 3px;
+}
+
+.hero span {
+  letter-spacing: 3px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+@media(max-width:600px) {
+  header {
+    padding: 20px 4%;
+  }
+
+  .logo {
+    font-size: 13px;
+  }
+
+  nav {
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+
+  .hero {
+    top: 32%;
+    left: 5%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div id="globe"></div>
+
+<header>
+  <div class="logo">STAR <span>ACADEMY</span></div>
+  <nav>
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#roster">ROSTER</a>
+  </nav>
+</header>
+<section class="hero">
+  <p>MORE THAN A TEAM</p>
+  <h1>OUR WORLD.<br>OUR LEGACY.</h1>
+  <span>VIETNAM ESPORTS</span>
+</section>
+</body>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #02040a;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+#globe {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 24px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffffff25;
+}
+
+.logo {
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.logo span {
+  color: #66baff;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.hero {
+  position: absolute;
+  z-index: 1;
+  left: 7%;
+  top: 40%;
+  pointer-events: none;
+}
+
+.hero p {
+  letter-spacing: 4px;
+  color: #8fcaff;
+}
+
+h1 {
+  font-size: clamp(36px, 6vw, 75px);
+  line-height: 1.1;
+  letter-spacing: 3px;
+}
+
+.hero span {
+  letter-spacing: 3px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+@media(max-width:600px) {
+  header {
+    padding: 20px 4%;
+  }
+
+  .logo {
+    font-size: 13px;
+  }
+
+  nav {
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+
+  .hero {
+    top: 32%;
+    left: 5%;
+  }
+}
+</style>
+
+</html>
